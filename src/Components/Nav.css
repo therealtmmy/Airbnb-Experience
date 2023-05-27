@@ -1,0 +1,13 @@
+.Nav {
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.logo {
+    padding-left: 30px;
+}

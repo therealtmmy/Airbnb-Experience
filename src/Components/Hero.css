@@ -1,0 +1,11 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero_Img {
+    object-fit: cover;
+    margin-top: 50px;
+}
