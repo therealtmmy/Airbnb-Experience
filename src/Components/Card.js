@@ -6,7 +6,10 @@ import {FaStar} from "react-icons/fa";
 const Card = () => {
   return (
     <div className='Card-Container'>
-        <img src={image} alt="Athlete image" />
+        <div>
+             <p className='SoldOut'>SOLD OUT</p>
+            <img src={image} alt="Athlete image" />
+        </div>
         <div className='Icon-Container'>
             <p className='Icon-Number'> <FaStar color=
 '#FE395C' fontSize='15px'/> 5.0 <span className='Icon-Details'> (6) . USA</span> </p>
