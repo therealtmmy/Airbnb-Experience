@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.Card-Container {
+    padding: 37px;
+}
+
+.Icon-Container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Icon-Number {
+    font-family: 'popping', sans-serif;
+    font-size: 16px;
+    color: #222222;
+    margin-bottom:-10px;
+}
+
+.Icon-Details {
+    color: #918E9B;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.Icon-Text {
+    font-size: 18px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:-15px;
+}
+
+.Price-tag {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Price {
+    font-family: 'Poppin', sans-serif;
+    font-size: 19px;
+}
