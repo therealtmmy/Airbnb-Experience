@@ -10,4 +10,7 @@
 
 .logo {
     padding-left: 30px;
+    width: 180px;
+    height: 40px;
+    object-fit: contain;
 }

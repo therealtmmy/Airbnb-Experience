@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Nav from "./Components/Nav";
 import Hero from "./Components/Hero";
+import HeroContents from "./Components/HeroContents";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <Nav />
     <Hero />
+    <HeroContents />
   </React.StrictMode>
 );
 
