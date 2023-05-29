@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import Card from "./Components/Card";
 import HeroContents from "./Components/HeroContents";
 import reportWebVitals from "./reportWebVitals";
+import Image from "./Components/image 12.png";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +14,14 @@ root.render(
     <Nav />
     <Hero />
     <HeroContents />
-    <Card />
+    <Card
+      img={Image}
+      rating="5.0"
+      reviewCount={6}
+      country="Nigeria"
+      title="Life Lessons with Katie Zaferes"
+      price={136}
+    />
   </React.StrictMode>
 );
 
