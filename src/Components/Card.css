@@ -5,6 +5,11 @@
     padding: 37px;
 }
 
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
 .SoldOut {
     width: 90px;
     height: 25px;
@@ -16,6 +21,12 @@ position: absolute;
  z-index: 1;
  text-align: center;
  font-weight: 500;
+}
+
+.Card-Img {
+    width: 270px;
+    height: 350px;
+    object-fit: fill;
 }
 
 .Icon-Container {

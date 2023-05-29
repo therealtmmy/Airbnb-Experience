@@ -6,26 +6,33 @@ import Hero from "./Components/Hero";
 import Card from "./Components/Card";
 import HeroContents from "./Components/HeroContents";
 import reportWebVitals from "./reportWebVitals";
-import Image from "./Components/image 12.png";
+import data from "./Components/data";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const cards = data.map((item) => {
+  return (
+    <Card 
+      status={item.status}
+      img={item.coverImg}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount}
+      place={item.location}
+      title={item.title}
+      price={item.price}
+    />
+  );
+});
+
 root.render(
   <React.StrictMode>
     <Nav />
     <Hero />
     <HeroContents />
-    <Card
-      img={Image}
-      rating="5.0"
-      reviewCount={6}
-      country="Nigeria"
-      title="Life Lessons with Katie Zaferes"
-      price={136}
-    />
+  <section className="card">
+  {cards}
+  </section>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
