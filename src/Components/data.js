@@ -4,7 +4,6 @@ import React from "react";
 const data = [
 
   {
-    status: "SOLD OUT",
     id: 1,
     title: "Life Lessons with Katie Zaferes",
     description:
@@ -15,11 +14,10 @@ const data = [
       rating: 5.4,
       reviewCount: 6,
     },
-    location: "USA",
-    openSpots: 6,
+    location: "online",
+    openSpots: 0,
   },
   {
-    status: "ONLINE",
     id: 2,
     title: "Learn Wedding Photography",
     description:
@@ -30,11 +28,10 @@ const data = [
       rating: 5.0,
       reviewCount: 36,
     },
-    location: "USA",
+    location: "online",
     openSpots: 27,
   },
   {
-    status: "ONLINE",
     id: 3,
     title: "Group Mountain Biking",
     description:

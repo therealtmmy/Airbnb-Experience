@@ -13,13 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const cards = data.map((item) => {
   return (
     <Card 
-      status={item.status}
-      img={item.coverImg}
-      rating={item.stats.rating}
-      reviewCount={item.stats.reviewCount}
-      place={item.location}
-      title={item.title}
-      price={item.price}
+      key={item.id}
+      item={item}
     />
   );
 });
